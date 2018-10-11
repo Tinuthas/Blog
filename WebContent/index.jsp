@@ -20,9 +20,6 @@
 	
 	<c:if test="${not empty USUARIO }">
 		
-		<c:forEach var="u" items="${USUARIO }" >
-			
-		</c:forEach>
 		<c:if test="${not empty LISTPOST }">
 		<c:forEach var="post" items="${LISTPOST}" >
 			<div class="post">
